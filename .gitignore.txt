@@ -1,0 +1,25 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Environment variables (Crucial for security!)
+secret_key.json
+*.pem
+.env
+.env.txt
+*.txt
+.env*
+
+# Data files
+*.csv
+*.json
+!data/sample_ecomm.csv  # Use '!' to allow a specific small sample file
+
+# Virtual environments
+venv/
+env/
+
+# IDE specific files
+.vscode/
+.idea/
+.DS_Store
